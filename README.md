@@ -14,6 +14,12 @@ This project is a web application for browsing movies, built using React. It sta
 The core functionalities include:
 
 - Browsing Movies: Displaying a grid of popular movies fetched through a publically available API.
+- Search Movies: Find the movie you are looking for in seconds with the quick search functionality.
 - Client-Side Navigation: Using react-router to allow users to navigate between different pages i.e. Home & Favorites page, seamlessly without reloading the entire application.
 - Adding/Removing Movies from Watchlist: Clicking on the ❤ icon on a movie to add it to your watchlist.
 - View Watchlist: Clicking on the Watchlist tab takes us to the list of movies we have added to the watchlist.
+
+## Demo
+
+https://github.com/user-attachments/assets/b2a94198-73fe-4e65-9527-d4264b7e56d3
+
