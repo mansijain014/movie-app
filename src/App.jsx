@@ -15,7 +15,7 @@ function App() {
       // If storedFavs exist, parse them, otherwise return an empty array.
       return storedFavs ? JSON.parse(storedFavs) : [];
     } catch (error) {
-      console.error("Failed to parse favorites from localStorage", error);
+      console.error("Failed to load", error);
       return [];
     }
   });
@@ -32,7 +32,7 @@ function App() {
         <FavContext.Provider value={[favorites, setFavorites]}>   
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/favourites" element={<Favorites />} />
+            <Route path="/watchlist" element={<Favorites />} />
           </Routes>
         </FavContext.Provider>
       </main>
