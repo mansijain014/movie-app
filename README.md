@@ -1,12 +1,19 @@
-# React + Vite
+## How to run this app locally
+- Clone the repository to your local system.
+- Make sure you are inside the movie-app folder. If not then run the following command in your git bash: ```cd movie-app/```
+- Run ```npm install```. This will install all the dependencies in your folder.
+- Run ```npm run dev```.
+- The app is up & running now. Feel free to play around and explore!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Application Overview
 
-Currently, two official plugins are available:
+This project is a web application for browsing movies, built using React. It starts from a minimal template designed for efficiency and a great developer experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Functionalities
 
-## Expanding the ESLint configuration
+The core functionalities include:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Browsing Movies: Displaying a grid of popular movies fetched through a publically available API.
+- Client-Side Navigation: Using react-router to allow users to navigate between different pages i.e. Home & Favorites page, seamlessly without reloading the entire application.
+- Adding/Removing Movies from Watchlist: Clicking on the ❤ icon on a movie to add it to your watchlist.
+- View Watchlist: Clicking on the Watchlist tab takes us to the list of movies we have added to the watchlist.
